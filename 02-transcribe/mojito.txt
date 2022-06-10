@@ -1,0 +1,1 @@
+My name is Mojito and I'm studying Python speech recognition course provided by Frequent camp.

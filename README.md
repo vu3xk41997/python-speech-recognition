@@ -10,3 +10,10 @@ Speech recognition course from freecodecamp
     * edit .wav file and convert to .mp3 file
     <code>brew install ffmpeg</code>
 2. Audio recognition
+    * signup on assemblyAI and get API key
+    * developers > documentation
+    * upload local file
+    * get transcribe id
+    * poll with transcribe id
+    * return status
+    * save transcript if process completed
