@@ -9,7 +9,7 @@ Speech recognition course from freecodecamp
     <code>brew install portaudio</code>
     * edit .wav file and convert to .mp3 file
     <code>brew install ffmpeg</code>
-2. Audio recognition
+2. Audio Recognition
     * signup on assemblyAI and get API key
     * developers > documentation
     * upload local file
@@ -17,3 +17,12 @@ Speech recognition course from freecodecamp
     * poll with transcribe id
     * return status
     * save transcript if process completed
+3. Sentiment Analysis
+    * api.py is basiclly the same as api_communication.py in previous project
+    * api key is needed
+    * import youtube_dl 
+    <code>pip3 install youtube-dl</code>
+    * with youtube_dl, we extract video info and retrieve audio url
+    * save transcript using audio url and save sentiment analysis as .json file
+    * count the number of "positive", "negative", and "neutral"
+    * calculate positive ratio ignoring "neutral"
