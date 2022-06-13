@@ -26,3 +26,16 @@ Speech recognition course from freecodecamp
     * save transcript using audio url and save sentiment analysis as .json file
     * count the number of "positive", "negative", and "neutral"
     * calculate positive ratio ignoring "neutral"
+4. Podcast Summarization
+    * similar api as previous project
+    * signup on Listennotes and get API key
+    * search for certain episode and fetch api of that episode (right side of the screen after scrolling down)
+    * get episode information and save transcription
+    * import streamlit to build frontend UI
+    <code>pip3 install streamlit</code>
+    * create frontend UI with streamlit
+    * calculate start time of each chapter
+    * run streamlit in terminal
+    <code>streamlit run main.py</code>
+    * search with episode id
+    * it might take a while to retrieve information
