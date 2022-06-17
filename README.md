@@ -39,3 +39,15 @@ Speech recognition course from freecodecamp
     <code>streamlit run main.py</code>
     * search with episode id
     * it might take a while to retrieve information
+5. Real-time Recognition with OpenAi
+    * upgrade assemblyAi to paid account
+    * same api_secrets as previous project
+    * signup on openAi and get api key
+    * import websockets
+    <code>pip3 install websockets</code>
+    * import openai
+    <code>pip3 install openai</code>
+    * setup microphone using source code from project one
+    * get url from assemblyAi real-time speech recognition blog
+    * sending and receiving data with async
+    * get ask_computer source code from openAi exemples > Q&A
